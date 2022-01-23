@@ -3,6 +3,17 @@
 @import "fontface.css";
 
 body {
-  font-family: "OpenSans-Regular", sans-serif;
-  background: white;
+  font-family: "Arimo", sans-serif;
+  background: #1b1a1a;
+  width: 100%;
+  color: white;
+}
+
+.error-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 30px;
 }

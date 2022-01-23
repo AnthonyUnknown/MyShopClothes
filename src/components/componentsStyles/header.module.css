@@ -1,0 +1,15 @@
+.headerWrapper {
+  height: 50px;
+  background: rgb(196, 195, 195);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopName {
+  font-family: "Island Moments", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 40%;
+}

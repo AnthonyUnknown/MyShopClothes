@@ -1,0 +1,29 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: white;
+  transition: all 1s ease-in-out;
+  padding: 0px 5px;
+}
+
+.navLink:active {
+  color: white;
+}
+
+.navLink:hover {
+  color: black;
+  background: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.linkText {
+  display: block;
+  font-size: 18px;
+}
