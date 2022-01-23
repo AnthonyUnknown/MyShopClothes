@@ -16,7 +16,8 @@
     "lint-es": ".\\node_modules\\.bin\\eslint --fix --cache ./**/*.{js,jsx,ts,tsx,json} && prettier --write **/*.{js,jsx,ts,tsx,json,html} --loglevel warn",
     "lint-styles": ".\\node_modules\\.bin\\stylelint --fix --cache ./**/*.{css,scss,less} && prettier --write **/*.{css,scss,less} --loglevel warn",
     "lint-md": ".\\node_modules\\.bin\\markdownlint --fix **/*.md --ignore node_modules",
-    "prepare": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks && git config --unset core.hooksPath"
+    "prepare": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks && git config --unset core.hooksPath",
+    "server": "json-server-auth db.json"
   },
   "engines": {
     "node": ">=12.20.0 <13 || >=14.13.1 <17"
@@ -59,7 +60,7 @@
     "compression-webpack-plugin": "^9.0.1",
     "copy-webpack-plugin": "^10.0.0",
     "css-loader": "^6.5.1",
-    "eslint": "^8.3.0",
+    "eslint": "^8.7.0",
     "eslint-config-airbnb": "^19.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
@@ -72,6 +73,8 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
     "lint-staged": "^12.1.2",
     "markdownlint": "^0.24.0",
     "markdownlint-cli": "^0.30.0",
@@ -86,13 +89,13 @@
     "postcss-normalize": "^10.0.1",
     "postcss-scss": "^4.0.2",
     "preload-webpack-plugin": "^3.0.0-beta.4",
-    "prettier": "^2.4.1",
+    "prettier": "2.5.1",
     "prettier-eslint": "^13.0.0",
     "sass-loader": "^12.3.0",
     "script-ext-html-webpack-plugin": "^2.1.5",
     "shx": "^0.3.3",
     "style-loader": "^3.3.1",
-    "stylelint": "^14.1.0",
+    "stylelint": "^14.2.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-scss": "^5.0.2",
     "stylelint-no-unsupported-browser-features": "^5.0.2",
@@ -109,7 +112,9 @@
     "webpack-mock-server": "^1.0.15"
   },
   "dependencies": {
+    "@types/react-redux": "^7.1.22",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6"
   }
 }
