@@ -1,19 +1,127 @@
 {
-  "posts": [
+  "clothes": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "ANTHONY UNKNOWN ROYAL LOGO FLEECE in BLACK",
+      "price": 60,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Ткань: велсофт, большая вышивка по центру, брендированный пуллер",
+      "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/719811/BLACK.jpg"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "ANTHONY UNKNOWN ROYAL LOGO FLEECE in GRAY",
+      "price": 60,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Ткань: велсофт, большая вышивка по центру, брендированный пуллер",
+      "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/719812/GREY.jpg"
+    },
+    {
+      "id": 3,
+      "title": "ANTHONY UNKNOWN KISS SWEATER in BLACK",
+      "price": 80,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Состав: 50% хлопок, 50% акрил, принт: вязание",
+      "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/673330/BLACK.jpg"
+    },
+    {
+      "id": 4,
+      "title": "ANTHONY UNKNOWN KISS SWEATER in WHITE",
+      "price": 80,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Состав: 50% хлопок, 50% акрил, принт: вязание",
+      "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/717779/WHITE.jpg"
+    },
+    {
+      "id": 5,
+      "title": "ANTHONY UNKNOWN PUFFER JACKET V4 in BLACK",
+      "price": 100,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Выдержит температуру до -30, водонепроницаемые молнии, внутренний карман, резинки на рукава, резинки на поясе, наполнитель: плотный синтепон, ткань: fitsystem",
+      "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/709222/SITE1.jpg"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "email": "dasda@mail.ru",
+      "password": "$2a$10$IwmrszWlTX9/a1hemtY2H.lkjhrTeDUucXVFNpCWGlDH8f6HGRRZu",
+      "id": 1
+    },
+    {
+      "email": "sdasd@mail.ru",
+      "password": "$2a$10$oVMEaohCfSmtd8ZZxdefpObGKtnTqnSg4h4d6V.IkcF015kjVMoFS",
+      "id": 2
+    },
+    {
+      "email": "ddasdas@mail.ru",
+      "password": "$2a$10$WcexMLXj4aW62Ekmkuke2.VWFasgPYl89FEBTQPjaTIBqfrKEcRaO",
+      "id": 3
+    },
+    {
+      "email": "aaaaaaaaaaaaaa@mail.ru",
+      "password": "$2a$10$P/vSnipYRcZwcmXNjTfZeOF7BUmDK5fLHqI.BBQceAGhbKIuey9A6",
+      "id": 4
+    },
+    {
+      "email": "qweqweqw@mail.ru",
+      "password": "$2a$10$K9pnl5.ArfclZx0qI84S8evuaYlHD9ibm6LhDYkebV.QdLDHNg2TS",
+      "id": 5
+    },
+    {
+      "email": "aaaaad@mail.ru",
+      "password": "$2a$10$EyWZH0ZGPbYzVkscHCJOfu064s8JVH0Kz3DS8Kz8Rjkbi4uE38wDK",
+      "id": 6
+    },
+    {
+      "email": "fasfsfasfsaf@mail.ru1",
+      "password": "$2a$10$6wNAJiIvcVrIwSsBPriSteFP.C6eYgspLWeEttpKyIFTNW9NBm/Ii",
+      "id": 7
+    },
+    {
+      "email": "anton@mail.ru",
+      "password": "$2a$10$6qWOOeBY1fwPBMQgXBiS0.518qII9h4nz627yZ1rryWUSEHScxNky",
+      "id": 8
+    },
+    {
+      "email": "dasdasd@mail.ru",
+      "password": "$2a$10$Qg2cSUESt.7iv/EjzTAsr.rEAnmTUG0uYqRaixVDkmVna97nV1Wki",
+      "id": 9
+    },
+    {
+      "email": "dddddddddddddd@mail.ru",
+      "password": "$2a$10$HCOFs9fSXV.tBDKS7lXlV.wT6MxDdhJumWGo1GR04skuefp95GpRO",
+      "id": 10
+    },
+    {
+      "email": "test@mail.ru",
+      "password": "$2a$10$MiXA27LZr0KeGIfD4WJ8vOU2DQYIokfHnqZeYNEgDxT7nnVhZPwi6",
+      "name": "Antodsadsadeweqw",
+      "surname": "Romanovskysdaddasdasdasdsadsad",
+      "phone": "375(33)6292905",
+      "city": "Minsk",
+      "adress": "Esenina, 19",
+      "index": "220025",
+      "id": 11
+    }
+  ]
 }

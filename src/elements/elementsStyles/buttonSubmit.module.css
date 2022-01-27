@@ -1,0 +1,21 @@
+.buttonSubmit {
+  width: 200px;
+  height: 35px;
+  font-size: 22px;
+  border-radius: 7px;
+  background: lightgray;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid gray;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+}
+
+.buttonSubmit:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonBlock {
+  margin-top: 10px;
+}

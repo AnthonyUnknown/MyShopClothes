@@ -10,7 +10,7 @@
   height: 50px;
   color: white;
   transition: all 1s ease-in-out;
-  padding: 0px 5px;
+  padding: 0px 10px;
 }
 
 .navLink:active {
