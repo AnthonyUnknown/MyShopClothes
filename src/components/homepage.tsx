@@ -1,16 +1,18 @@
 import { fetchClothesHomepage } from "@/api";
 import Slider from "@/elements/slider";
 import { IClothes } from "@/interfaces";
+import { fetchClothesHome } from "@/redux/actionFunctions";
+import useTypedSelector from "@/redux/useTypedSelector";
 import { SyntheticEvent, useEffect, useState } from "react";
 import { BiSearch } from "react-icons/bi";
+import { useDispatch } from "react-redux";
 import Cloth from "./cloth";
 import classes from "./componentsStyles/homepage.module.css";
-import { ImSearch } from "react-icons/im";
 
 const Homepage: React.FC = () => {
-  const [clothes, setClothes] = useState<IClothes[]>([]);
   const [hiddenInput, setHiddenInput] = useState(true);
   const [searchValue, setSearchValue] = useState("");
+  const dispatch = useDispatch();
 
   function onChangeSearchValue(e: SyntheticEvent<HTMLInputElement>) {
     setSearchValue(e.currentTarget.value);
@@ -20,18 +22,15 @@ const Homepage: React.FC = () => {
     setHiddenInput(!hiddenInput);
   }
 
-  async function fetchClothes() {
-    try {
-      let response = await fetchClothesHomepage();
-      setClothes(response);
-    } catch (error) {
-      alert(error);
-    }
+  function fetchClothes() {
+    dispatch(fetchClothesHome(searchValue));
   }
+
+  const clothes = useTypedSelector((stateClothes) => stateClothes.cloth.clothes);
 
   useEffect(() => {
     fetchClothes();
-  }, []);
+  }, [searchValue]);
 
   return (
     <div className={classes.homepage}>
@@ -55,9 +54,6 @@ const Homepage: React.FC = () => {
         </div>
         <div style={hiddenInput ? { visibility: "hidden" } : { visibility: "visible" }} className={classes.inputSearch}>
           <input type="text" placeholder="Find your clothes!" value={searchValue} onChange={onChangeSearchValue} />
-          <button className={classes.submitSearch} type="submit">
-            <ImSearch />
-          </button>
         </div>
         <div className={classes.clothes}>
           {clothes.map((cloth) => {

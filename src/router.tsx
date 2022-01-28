@@ -7,6 +7,7 @@ import Registration from "./components/registration";
 import Basket from "./components/basket";
 import Userpage from "./components/userpage";
 import ProtectedRoute from "./components/protectedRoute";
+import ClothPage from "./components/clothPage";
 
 const Router: React.FC = () => {
   return (
@@ -18,7 +19,6 @@ const Router: React.FC = () => {
           <Route path="*" element={<Homepage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/registration" element={<Registration />} />
-
           <Route
             path="/basket"
             element={
@@ -32,6 +32,14 @@ const Router: React.FC = () => {
             element={
               <ProtectedRoute>
                 <Userpage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/clothes/:id"
+            element={
+              <ProtectedRoute>
+                <ClothPage />
               </ProtectedRoute>
             }
           />

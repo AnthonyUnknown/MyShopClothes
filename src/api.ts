@@ -2,8 +2,8 @@ import axios from "axios";
 import { IClothes, IUser, IUserUser } from "./interfaces";
 import links from "./links";
 
-export async function fetchClothesHomepage(): Promise<IClothes[]> {
-  let response = await axios.get<IClothes[]>(`${links.clothesApi}`);
+export async function fetchClothesHomepage(search: string): Promise<IClothes[]> {
+  let response = await axios.get<IClothes[]>(`${links.clothesApi}?title_like=${search}`);
   return response.data;
 }
 

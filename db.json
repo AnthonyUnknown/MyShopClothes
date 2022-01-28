@@ -4,60 +4,40 @@
       "id": 1,
       "title": "ANTHONY UNKNOWN ROYAL LOGO FLEECE in BLACK",
       "price": 60,
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "description": "Ткань: велсофт, большая вышивка по центру, брендированный пуллер",
+      "sizes": ["S", "M", "L"],
+      "description": "Fabric: Velsoft, large embroidery in the center, branded puller",
       "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/719811/BLACK.jpg"
     },
     {
       "id": 2,
       "title": "ANTHONY UNKNOWN ROYAL LOGO FLEECE in GRAY",
       "price": 60,
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "description": "Ткань: велсофт, большая вышивка по центру, брендированный пуллер",
+      "sizes": ["S", "M", "L"],
+      "description": "Fabric: Velsoft, large embroidery in the center, branded puller",
       "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/719812/GREY.jpg"
     },
     {
       "id": 3,
       "title": "ANTHONY UNKNOWN KISS SWEATER in BLACK",
       "price": 80,
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "description": "Состав: 50% хлопок, 50% акрил, принт: вязание",
+      "sizes": ["S", "M", "L"],
+      "description": "Composition: 50% cotton, 50% acrylic, print: knit",
       "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/673330/BLACK.jpg"
     },
     {
       "id": 4,
       "title": "ANTHONY UNKNOWN KISS SWEATER in WHITE",
       "price": 80,
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "description": "Состав: 50% хлопок, 50% акрил, принт: вязание",
+      "sizes": ["S", "M", "L"],
+      "description": "Composition: 50% cotton, 50% acrylic, print: knit",
       "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/717779/WHITE.jpg"
     },
     {
       "id": 5,
       "title": "ANTHONY UNKNOWN PUFFER JACKET V4 in BLACK",
       "price": 100,
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "description": "Выдержит температуру до -30, водонепроницаемые молнии, внутренний карман, резинки на рукава, резинки на поясе, наполнитель: плотный синтепон, ткань: fitsystem",
+      "sizes": ["S", "M", "L"],
+      "description": "Withstands temperatures down to -30, waterproof zippers, inner pocket, elastic bands on the sleeves, elastic bands on the waist, filler: dense synthetic winterizer, fabric: fitsystem",
       "pic": "https://thumbor9.kiiiosk.store/unsafe/458x/https://aws.kiiiosk.store/uploads/shop/2237/uploads/product_image/image/709222/SITE1.jpg"
     }
   ],
@@ -115,7 +95,7 @@
     {
       "email": "test@mail.ru",
       "password": "$2a$10$MiXA27LZr0KeGIfD4WJ8vOU2DQYIokfHnqZeYNEgDxT7nnVhZPwi6",
-      "name": "Antodsadsadeweqw",
+      "name": "31313",
       "surname": "Romanovskysdaddasdasdasdsadsad",
       "phone": "375(33)6292905",
       "city": "Minsk",

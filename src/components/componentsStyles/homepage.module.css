@@ -56,11 +56,3 @@
   display: flex;
   justify-content: center;
 }
-
-.submitSearch {
-  background: lightgray;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 50px;
-  font-size: 22px;
-}

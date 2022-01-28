@@ -28,6 +28,10 @@
 .rightBlockUser {
   margin-right: 10%;
   width: 400px;
+  background: white;
+  height: 300px;
+  color: rgb(164, 161, 161);
+  border-radius: 5px;
 }
 
 .infoPers {
