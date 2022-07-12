@@ -1,0 +1,58 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperHP {
+  width: 90%;
+  background: #1b1a1a;
+  padding-top: 15px;
+}
+
+.accessories {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.clothes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clothesBlock {
+  width: 31.3%;
+  margin: 1% 1%;
+  height: 100px;
+  background: red;
+}
+
+.search {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchButton {
+  width: 300px;
+  font-size: 22px;
+  font-family: "Architects Daughter", cursive;
+  border-radius: 5px;
+  color: white;
+  background: crimson;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 1px solid white;
+}
+
+.searchButton:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.inputSearch {
+  display: flex;
+  justify-content: center;
+}

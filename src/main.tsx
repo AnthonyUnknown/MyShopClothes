@@ -4,6 +4,8 @@ import "./styles/main.scss";
 import { Component, StrictMode } from "react";
 import ReactDom from "react-dom";
 import Router from "./router";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 
 interface AppState {
   hasError: boolean;
@@ -39,7 +41,9 @@ class AppContainer extends Component<AppProps, AppState> {
     return (
       <>
         <StrictMode>
-          <Router />
+          <Provider store={store}>
+            <Router />
+          </Provider>
         </StrictMode>
       </>
     );

@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.privacy {
+  cursor: pointer;
+}

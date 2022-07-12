@@ -1,0 +1,15 @@
+.inputAndLabel {
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+}
+
+input {
+  height: 35px;
+  border-radius: 5px;
+  width: 450px;
+  font-size: 22px;
+  background: rgb(145, 144, 144);
+  color: white;
+  font-family: "Architects Daughter", cursive;
+}

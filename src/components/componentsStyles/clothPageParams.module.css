@@ -1,0 +1,63 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  color: gray;
+  font-size: 18px;
+}
+
+.pic {
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 5px solid gray;
+}
+
+.firstBlockText {
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid gray;
+}
+
+.blockTop {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.blockBottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.secondBlockText {
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid gray;
+}
+
+.returnButton {
+  width: 200px;
+  height: 30px;
+  font-family: "Architects Daughter", cursive;
+  background: #1b1a1a;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
